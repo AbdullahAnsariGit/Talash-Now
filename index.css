@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #01B0D3;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 70px;
+    background-color: #01B0D3;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:3px solid #01B0D3 ;
+}
+.btnOne{
+    height: 50px;
+    width: 80px;
+    background-color: #ade6e6;
+margin-left: 10px;
+border-radius: 10px;
+border: none;
+color: #fff;
+}
+.btnOne:hover{
+background-color: skyblue;
+}
+.btnTwo:hover{
+    background-color: skyblue;
+    }
+    .btnSearch:hover{
+background-color: skyblue;
+}
+.btnTwo{
+    height: 50px;
+    width: 80px;
+    background-color: #ade6e6;
+
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.searchBarSec{
+    background-color: #ade6e6;
+
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+.btnSearch{
+    padding: 10px;
+    height: 50px;
+    font-size: 12px;
+    background-color: #01B0D3;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.searchInp{
+    height: 30px;
+    width: 400px;
+    background-color: #01B0D3;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+::placeholder{
+    color: #fff;
+    border: none;
+    
+    font-size: 12px;
+}
